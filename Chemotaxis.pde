@@ -28,7 +28,7 @@ class Bubble{
   void move(){
     myX=myX+(int)(Math.random()*150-70);
     myY=myY-(int)(Math.random()*50);
-    myZ=myZ+2;
+    myZ=myZ+(int)(Math.random()*4);
     if(myY<=-100){
       myY=300;
       myX=150;
